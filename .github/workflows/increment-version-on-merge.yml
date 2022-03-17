@@ -1,6 +1,6 @@
 name: Increment Version on Merge
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
 
 jobs:
@@ -9,9 +9,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-      pull-requests: write
+    #permissions:
+    #  contents: write
+    #  pull-requests: write
 
     steps:
       - name: Checkout Repository
