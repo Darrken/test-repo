@@ -1,4 +1,4 @@
-TEST2
+TEST3
 
 # composite-run-steps-action-template
 
